@@ -40,6 +40,7 @@ main {
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     align-items: center;
+    justify-content: space-around;
     
 }
 
@@ -54,8 +55,15 @@ main {
     color: hsl(277, 64%, 61%);
 }
 
-.stats-text {
-    font-family: 'Lexend Deca', sans-serif;
+.information-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    
 }
 
 .information-text > ul {
@@ -70,7 +78,26 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
+
+    /* Text Style */
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
 }
+
+.stats-text {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+
 
 /* IMAGE */
 
@@ -86,5 +113,7 @@ main {
 }
 
 
-
+@media (max-width: 550px) {
+    /* Phones */
+  }
 
