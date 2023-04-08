@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-!(./images/screenshot.jpg)
+![Design preview for the Stats preview card component coding challenge](./images/screenshot.jpg)
 
 ### Links
 
