@@ -112,8 +112,62 @@ main {
     opacity: 0.75;
 }
 
-
+/* Mobile view */
 @media (max-width: 550px) {
-    /* Phones */
-  }
+    /* GENERAL STYLES */
+    html {
+        height: initial;
+    }
+
+    main {
+        width: 100%;
+        padding: 10% 5%;
+    }
+
+    /* CONTENT */
+
+    #main-container {
+        flex-direction: column-reverse;
+        max-width: none;
+        max-height: none;
+        width: 90%;
+    }
+
+    /* TEXT CONTENT */
+    #information {
+        padding: 20px 0px;
+    }
+    
+    .information-text h1 {
+        font-size: 1.75rem;
+        line-height: 114%;
+
+        text-align: center;
+    }
+
+    .information-text p {
+        text-align: center;
+    }
+
+    .information-text > ul {
+        flex-flow: column wrap;
+        align-content: center;
+        row-gap: 24px;
+    }
+
+    .information-text li {
+        text-align: center;
+    }
+
+
+    /* IMAGE */
+    #image {
+        border-radius: 8px 8px 0px 0px;
+        
+    }
+
+    #image img {
+        overflow: auto;
+    }
+}
 
