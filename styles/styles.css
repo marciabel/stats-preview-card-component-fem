@@ -15,7 +15,10 @@ body {
 }
 
 main {
-    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 
@@ -25,6 +28,11 @@ main {
     display: flex;
     background-color: hsl(244, 38%, 16%);
 
+    max-width: 1110px;
+    max-height: 446px;
+
+    border-radius: 8px
+
 }
 
 #information {
@@ -32,6 +40,7 @@ main {
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     align-items: center;
+    
 }
 
 
@@ -51,19 +60,30 @@ main {
 
 .information-text > ul {
     display: flex;
-    flex: row;
+    flex-flow: row nowrap;
 
     list-style-type: none;
     padding-inline-start: 0;
+}
+
+.information-text li {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* IMAGE */
 
 #image {
     display: flex;
+    border-radius: 0px 8px 8px 0px;
+    background-color: hsl(277, 64%, 61%);
 }
 
-
+#image img {
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+}
 
 
 
