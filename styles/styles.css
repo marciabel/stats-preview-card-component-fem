@@ -17,10 +17,7 @@ body {
 main {
     display: flex;
     justify-content: center;
-    
-    
 }
-
 
 /* CONTENT */
 
@@ -137,7 +134,7 @@ main {
     #information {
         padding: 20px 0px;
     }
-    
+
     .information-text h1 {
         font-size: 1.75rem;
         line-height: 114%;
